@@ -32,7 +32,7 @@ Applicable to multiple Git accounts.
 
    ```shell
    ssh-agent bash
-   ssh-add ~/.ssh/ffff
+   ssh-add ~/.ssh/fff
    ```
 
 5. Create a file named `config` in the `~/.ssh` directory.
@@ -40,7 +40,7 @@ Applicable to multiple Git accounts.
    ```
    Host xxx.github.com
    HostName github.com
-   IdentityFile ~/.ssh/ffff
+   IdentityFile ~/.ssh/fff
    PreferredAuthentications publickey
    User XXX
    ```
