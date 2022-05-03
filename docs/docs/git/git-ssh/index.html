@@ -27,12 +27,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://uniontype.github.io/home/docs/git/git-ssh/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2022-05-03T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-05-03T00:00:00+00:00" /><meta property="og:site_name" content="UnionType" />
+<meta property="article:modified_time" content="2022-05-03T23:24:09+08:00" /><meta property="og:site_name" content="UnionType" />
 
 <meta itemprop="name" content="Git SSH">
 <meta itemprop="description" content="Relevant operation records of Git SSH.
 "><meta itemprop="datePublished" content="2022-05-03T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-05-03T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-05-03T23:24:09+08:00" />
 <meta itemprop="wordCount" content="91">
 <meta itemprop="keywords" content="Git,tool," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git SSH"/>
@@ -135,15 +135,15 @@ if (!doNotTrack) {
       <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-homedocs-li">
   <a href="/home/docs/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-homedocs"><span class="">Documentation</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-homedocsgit-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-homedocscpp-li">
+  <a href="/home/docs/cpp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-homedocscpp"><span class="">C/C&#43;&#43;</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-homedocsgit-li">
   <a href="/home/docs/git/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-homedocsgit"><span class="">Git</span></a>
   <ul class="ul-2 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-homedocsgitgit-ssh-li">
   <a href="/home/docs/git/git-ssh/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-homedocsgitgit-ssh"><span class="td-sidebar-nav-active-item">Git SSH</span></a>
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-homedocscpp-li">
-  <a href="/home/docs/cpp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-homedocscpp"><span class="">C/C&#43;&#43;</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-homedocsmisc-li">
   <a href="/home/docs/misc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-homedocsmisc"><span class="">MISC</span></a>
 </li>
@@ -305,13 +305,13 @@ if (!doNotTrack) {
 <li>
 <p>Add the private key.</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-agent bash
-</span></span><span style="display:flex;"><span>ssh-add ~/.ssh/ffff
+</span></span><span style="display:flex;"><span>ssh-add ~/.ssh/fff
 </span></span></code></pre></div></li>
 <li>
 <p>Create a file named <code>config</code> in the <code>~/.ssh</code> directory.</p>
 <pre tabindex="0"><code>Host xxx.github.com
 HostName github.com
-IdentityFile ~/.ssh/ffff
+IdentityFile ~/.ssh/fff
 PreferredAuthentications publickey
 User XXX
 </code></pre></li>
@@ -334,7 +334,10 @@ User XXX
 </span></span></code></pre></div>
 	
 	
-	
+	<div class="text-muted mt-5 pt-3 border-top">
+  Last modified May 3, 2022: <a href="https://github.com/UnionType/commit/a1378252cd5709ec84def166d23d00ba95f5b394">make file names consistent (a137825)</a>
+</div>
+
 </div>
 
 

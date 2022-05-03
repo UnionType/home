@@ -4,7 +4,6 @@
     <link>https://uniontype.github.io/home/docs/git/</link>
     <description>Recent content in Git on UnionType</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://uniontype.github.io/home/docs/git/index.xml" rel="self" type="application/rss+xml" />
     
@@ -46,13 +45,13 @@
 &lt;li&gt;
 &lt;p&gt;Add the private key.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-agent bash
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-add ~/.ssh/ffff
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh-add ~/.ssh/fff
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Create a file named &lt;code&gt;config&lt;/code&gt; in the &lt;code&gt;~/.ssh&lt;/code&gt; directory.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Host xxx.github.com
 HostName github.com
-IdentityFile ~/.ssh/ffff
+IdentityFile ~/.ssh/fff
 PreferredAuthentications publickey
 User XXX
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
