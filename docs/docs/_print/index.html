@@ -156,7 +156,34 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>1: <a href="#pg-cfa9fc0a1e510b7b6afdfe84c2508e81">C/C&#43;&#43;</a></li>
+<li>1: <a href="#pg-ca278c1e5aad8a37c470682c053b4478">Git</a></li>
+
+
+    
+    <ul>
+        
+  
+  
+  
+  
+
+  
+    
+    
+	
+<li>1.1: <a href="#pg-5cf75248b9435ef0a31f740702dd2cbc">Git SSH</a></li>
+
+
+    
+  
+
+    </ul>
+    
+  
+    
+    
+	
+<li>2: <a href="#pg-cfa9fc0a1e510b7b6afdfe84c2508e81">C/C&#43;&#43;</a></li>
 
 
     
@@ -175,7 +202,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>2: <a href="#pg-3724b673f426a881aae6bdc8ca95891b">MISC</a></li>
+<li>3: <a href="#pg-3724b673f426a881aae6bdc8ca95891b">MISC</a></li>
 
 
     
@@ -228,7 +255,109 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-cfa9fc0a1e510b7b6afdfe84c2508e81">1 - C/C&#43;&#43;</h1>
+	<h1 id="pg-ca278c1e5aad8a37c470682c053b4478">1 - Git</h1>
+    <div class="lead">About Git</div>
+	
+
+<div class="pageinfo pageinfo-primary">
+<p>Some usage notes about Git.</p>
+
+</div>
+
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
+  
+    
+    
+	
+    
+
+<div class="td-content" style="">
+    
+	<h1 id="pg-5cf75248b9435ef0a31f740702dd2cbc">1.1 - Git SSH</h1>
+    <div class="lead">Relevant operation records of Git SSH.</div>
+	
+
+<div class="pageinfo pageinfo-primary">
+<p>Applicable to multiple Git accounts.</p>
+
+</div>
+
+<h2 id="git-ssh">Git SSH</h2>
+<ol>
+<li>
+<p>Enter<code>Win+R</code>and run <code>bash</code> on Windows, there&rsquo;s no special on Linux.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> ~/.ssh
+</span></span></code></pre></div></li>
+<li>
+<p>Generate key.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-keygen -t rsa -C <span style="color:#4e9a06">&#34;0123456@mail.com&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Copy the content of file<code>fff.pub</code> into GitHub.</p>
+</li>
+<li>
+<p>Add the private key.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-agent bash
+</span></span><span style="display:flex;"><span>ssh-add ~/.ssh/ffff
+</span></span></code></pre></div></li>
+<li>
+<p>Create a file named <code>config</code> in the <code>~/.ssh</code> directory.</p>
+<pre tabindex="0"><code>Host xxx.github.com
+HostName github.com
+IdentityFile ~/.ssh/ffff
+PreferredAuthentications publickey
+User XXX
+</code></pre></li>
+<li>
+<p>Connection test.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh -T git@xxx.github.com
+</span></span></code></pre></div></li>
+<li>
+<p>Exit.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">exit</span>
+</span></span></code></pre></div></li>
+<li>
+<p>For security, if you migrate to another computer, don&rsquo;t forget to delete the key files.</p>
+</li>
+</ol>
+<h2 id="clone">Clone</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone git@github.com:yyyyyyyyyyyy
+</span></span></code></pre></div><p>Change to</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone git@xxx.github.com:yyyyyyyyyyyy
+</span></span></code></pre></div>
+</div>
+
+
+
+    
+	
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-cfa9fc0a1e510b7b6afdfe84c2508e81">2 - C/C&#43;&#43;</h1>
     <div class="lead">About C/C++</div>
 	
 
@@ -273,7 +402,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-3724b673f426a881aae6bdc8ca95891b">2 - MISC</h1>
+	<h1 id="pg-3724b673f426a881aae6bdc8ca95891b">3 - MISC</h1>
     <div class="lead">Some documents that are not easy to classify.</div>
 	
 

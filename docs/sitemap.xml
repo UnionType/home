@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://uniontype.github.io/home/docs/git/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://uniontype.github.io/home/docs/cpp/</loc>
     <lastmod>2022-05-02T22:26:33+08:00</lastmod>
   </url><url>
@@ -16,6 +19,24 @@
   </url><url>
     <loc>https://uniontype.github.io/home/blog/releases/</loc>
     <lastmod>2022-05-02T22:26:33+08:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/categories/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/tags/git/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/categories/git/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/docs/git/git-ssh/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/tags/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://uniontype.github.io/home/tags/tool/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://uniontype.github.io/home/blog/2018/10/06/easy-documentation-with-docsy/</loc>
     <lastmod>2022-05-02T22:26:33+08:00</lastmod>
@@ -32,14 +53,10 @@
     <loc>https://uniontype.github.io/home/blog/</loc>
     <lastmod>2022-05-02T22:26:33+08:00</lastmod>
   </url><url>
-    <loc>https://uniontype.github.io/home/categories/</loc>
-  </url><url>
     <loc>https://uniontype.github.io/home/search/</loc>
     <lastmod>2022-05-02T22:26:33+08:00</lastmod>
   </url><url>
-    <loc>https://uniontype.github.io/home/tags/</loc>
-  </url><url>
     <loc>https://uniontype.github.io/home/</loc>
-    <lastmod>2022-05-03T10:32:15+08:00</lastmod>
+    <lastmod>2022-05-03T10:41:45+08:00</lastmod>
   </url>
 </urlset>
